@@ -1,6 +1,6 @@
 {
   "env": {
-    "es2021": true,
+    "es2024": true,
     "node": true
   },
   "extends": ["airbnb-base", "airbnb-typescript/base"],
@@ -10,6 +10,6 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "unicorn"],
   "rules": {}
 }
